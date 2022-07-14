@@ -7,4 +7,3 @@ pall
 pop
 pall
 pop
-pall
