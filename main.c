@@ -12,7 +12,7 @@ int status = 0; /* global var declaration */
  * main - entry point
  * @argv: list of arguments passed to our program
  * @argc: amount of args
- * Authors: Cynthia & Ademola Babarinde
+ * Authors: babarinde ademola && cynthia amaji
  *
  * Return: nothing
  */
