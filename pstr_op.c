@@ -22,3 +22,4 @@ void pstr(stack_t **stack, unsigned int line_cnt __attribute__((unused)))
 		current = current->next;
 	}
 	putchar('\n');
+}

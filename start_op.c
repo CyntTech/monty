@@ -84,3 +84,4 @@ void error_usage(void)
 {
 	fprintf(stderr, "USAGE: monty file\n");
 	exit(EXIT_FAILURE);
+}

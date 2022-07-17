@@ -26,3 +26,4 @@ void rotl(stack_t **stack, unsigned int line_count)
 	*stack = left->next; /* so we cut the link between the 0 and 1 element */
 	(*stack)->prev->next = NULL;
 	(*stack)->prev = NULL;
+}

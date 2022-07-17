@@ -1,3 +1,4 @@
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
@@ -8,7 +9,7 @@
  * pchar - prints the int at the top of the stack as char
  * @stack: stack given by main
  * @line_cnt: amount of lines
- * Authors: Martins Akhivbareme & Bolatito Alaba
+ * Authors: Cynthia Amaji and Ademola Babarinde
  *
  * Return: void
  */
@@ -27,3 +28,4 @@ void pchar(stack_t **stack, unsigned int line_cnt)
 		return;
 	}
 	printf("%c\n", (*stack)->n);
+}

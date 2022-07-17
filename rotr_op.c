@@ -28,3 +28,4 @@ void rotr(stack_t **stack, unsigned int line_count)
 	prev->next = NULL;
 	(*stack)->prev = bottom;
 	*stack = bottom;
+}
